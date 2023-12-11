@@ -4,6 +4,7 @@ from functions import get_todos, write_todos
 
 filename = r'todos.txt'
 now = time.strftime("%d %b, %Y  %H:%M:%S")
+
 while True:
     print(now)
     user_message = input("Type add, show, edit, delete, clear, complete or exit:")
