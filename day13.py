@@ -2,7 +2,7 @@ import time
 from functions import get_todos, write_todos
 
 
-filename = r'../txtfiles/todos.txt'
+filename = r'todos.txt'
 now = time.strftime("%d %b, %Y  %H:%M:%S")
 while True:
     print(now)
